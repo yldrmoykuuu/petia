@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="![Uploading Gemini_Generated_Image_h0arnjh0arnjh0ar.png…]()
-"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=200&section=header&text=🐾%20Petia&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Akıllı%20Evcil%20Hayvan%20Takip%20Uygulaması&descAlignY=55&descSize=18"/>
 </p>
-
 
 # 🐾 Petia – Akıllı Evcil Hayvan Takip Uygulaması
 
