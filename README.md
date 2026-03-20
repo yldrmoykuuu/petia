@@ -42,15 +42,56 @@ Kullanıcılar, evcil hayvanlarının sağlık takibini yapabilir, aşı ve rand
 <img src="https://github.com/user-attachments/assets/9e24376d-b14f-49f1-95c9-62864d9e15e3" width="300"/>
 
 
-## ⚙️ Teknik Detaylar
+## 📂 Proje Yapısı
 
-* 📦 Modular yapı
-* 🔄 Real-time veri akışı (Firestore)
-* 🔔 Bildirim tetikleme sistemi
-* 🧠 AI destekli öneri ve analiz sistemi
-* 📍 Konum tabanlı servisler
+Uygulama, feature-based modüler yapı ve Clean Architecture prensiplerine uygun olarak geliştirilmiştir.
+
+```
+app/
+├── core/                     # Ortak yapılar (base class, utils, constants)
+
+├── feature_auth/
+│   ├── data/
+│   │   ├── model/           # DTO / data models
+│   │   └── repo/            # Repository implementations
+│   ├── domain/
+│   │   ├── model/           # Domain models
+│   │   ├── repo/            # Repository interfaces
+│   │   └── usecase/         # Business logic
+│   ├── ui/
+│   │   ├── screen/          # UI ekranları
+│   │   ├── components/      # Reusable UI
+│   │   ├── state/           # UI state management
+│   │   └── viewmodel/       # ViewModels
+│   └── di/                  # Dependency Injection (Hilt)
+
+├── feature_home/
+├── feature_pet/
+├── feature_lost_pet/
+├── feature_chat/
+
+├── util/                    # Yardımcı sınıflar (SharedPrefs vb.)
+```
 
 ---
+
+## 🧠 Mimari Yaklaşım
+
+* Feature-based modular structure
+* Clean Architecture (Data / Domain / UI ayrımı)
+* MVVM pattern
+* Dependency Injection (Hilt)
+
+---
+
+## ⚙️ Öne Çıkan Teknikler
+
+* 🔄 State management (UI state katmanı)
+* 🧩 Reusable component yapısı
+* 📦 Feature isolation (modülerlik)
+* 🔌 DI ile bağımlılık yönetimi
+* 🧠 UseCase katmanı ile business logic ayrımı
+
 
 
 ## 🔒 Not
