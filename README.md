@@ -2,8 +2,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=200&section=header&text=🐾%20Petia&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Akıllı%20Evcil%20Hayvan%20Takip%20Uygulaması&descAlignY=55&descSize=18"/>
 </p>
 
-# 🐾 Petia – Akıllı Evcil Hayvan Takip Uygulaması
-
 Petia, evcil hayvan sahiplerinin günlük bakım süreçlerini kolaylaştırmak için geliştirilmiş modern bir Android uygulamasıdır.
 Kullanıcılar, evcil hayvanlarının sağlık takibini yapabilir, aşı ve randevu hatırlatmaları alabilir ve kayıp durumlarında hızlı aksiyon alabilir.
 
