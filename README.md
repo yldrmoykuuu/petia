@@ -5,7 +5,7 @@
 Petia, evcil hayvan sahiplerinin günlük bakım süreçlerini kolaylaştırmak için geliştirilmiş modern bir Android uygulamasıdır.
 Kullanıcılar, evcil hayvanlarının sağlık takibini yapabilir, aşı ve randevu hatırlatmaları alabilir ve kayıp durumlarında hızlı aksiyon alabilir.
 
-> 🚀 Google Play'de kapalı test aşamasında
+> 🚀 Google Play Linki:https://play.google.com/store/apps/details?id=com.oyku.petia&pcampaignid=web_share
 
 
 ## ✨ Özellikler
